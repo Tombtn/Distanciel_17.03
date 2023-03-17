@@ -1,0 +1,43 @@
+body{
+    font-family: manrope, roboto;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+
+}
+
+.photo{
+    display: flex;
+    height: 30vh;
+    background-image: url(img/lasagne.png);
+    background-size: contain;
+    padding: 0 5% 0 5%;
+    margin-top: 15%;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.croix{
+    margin-top: 20px;
+}
+
+.users{
+    background-color: rgba(0, 0, 0, 0.483);
+    padding: 1px 1px 1px 1px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8px;
+    height: auto;
+    width: 40%;
+    margin: 50px 0 20px 0;
+}
+
+.Informations{
+    padding: 0 5% 0 5%;
+
+}
