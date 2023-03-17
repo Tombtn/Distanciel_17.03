@@ -8,7 +8,7 @@ body{
 .photo{
     display: flex;
     height: 30vh;
-    background-image: url(img/lasagne.png);
+    background-image: url(img/Cusinje.png);
     background-size: contain;
     padding: 0 5% 0 5%;
     margin-top: 15%;
@@ -39,5 +39,75 @@ body{
 
 .Informations{
     padding: 0 5% 0 5%;
+
+}
+
+.titre{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.prix{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: end;
+    color: rgb(173, 173, 173);
+}
+
+.prix2{
+    color: #FF675F;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.panier2{
+    color: rgba(255, 255, 255, 0.64);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+.section{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(212, 212, 212);
+    margin-bottom: 5%;
+}
+
+.info{
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
+
+.livraison{
+    color: #FF675F;
+    font-size: 15px;
+}
+
+.nombre{
+    background-color:#ff675f10;
+    padding: 1px 1px 1px 1px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:#FF675F;
+    font-size: 12px;
+    height: auto;
+    width: 40%;
+}
+
+.ajouter{
+    background-color: #FF675F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    height: 150px;
+    margin-top: 10%;
 
 }
